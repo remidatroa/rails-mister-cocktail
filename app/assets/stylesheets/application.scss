@@ -13,3 +13,21 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+body{
+  padding: 20px;
+  background-image:url(https://media.giphy.com/media/oSYflamt3IEjm/giphy.gif);
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: white;
+}
+
+ul li {
+  text-decoration: none;
+  display: block;
+}
+
+a:hover{
+  text-decoration:none;
+}
+

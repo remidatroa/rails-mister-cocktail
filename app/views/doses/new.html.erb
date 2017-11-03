@@ -1,0 +1,12 @@
+<h1 class="text-center">
+  update a cocktail!
+</h1>
+<%= simple_form_for([@cocktail, @dose]) do |f| %>
+  <div class="form-inputs">
+    <%= f.input :description %>
+    <%= f.input :ingredient_id, collection: @ingredients %>
+  </div>
+  <div class="form-submit">
+    <%= f.submit class: 'btn btn-primary' %>
+  </div>
+<% end %>
